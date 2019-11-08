@@ -39,3 +39,23 @@ https://learn.hashicorp.com/terraform/getting-started/install.html
 ## CLI
 
 https://www.terraform.io/docs/configuration/index.html
+
+### Creation & Initializing
+
+**terraform init** - initializing - the command is idempotent (can run multiple times and will make changes only if it's absolutely necessary) - pulls down the specific providers needed for a project (depends on the project's config)
+
+**terraform plan** - shows the diff b/n the existing infrastructure (in the cloud) and at what state the configuration is now (what will be applied)
+
+**terraform apply** - will apply the configuration on the cloud and create the neccasseray infrastructure
+
+**terraform destroy** - initiates a process that goes ahead and removes the infrastructure we want or all of it 
+
+### Workflow & insight
+
+**terraform validate** - goes through the project and validates if the files can be executed 
+
+**terraform fmt** - formats the configuration files - helps with cleaning up configurations
+
+**terraform state** - shows the actual current existing state of a particular resource - **terraform state show <resourse_name>**
+
+**terraform graph** - needs some dependency installed - will create a graph svg with a map of the resourses in the project
