@@ -5,7 +5,7 @@ LinkedIn learning course notes and scripts
 
 Check the documentation: https://www.terraform.io/intro/index.html
 
-> Terraform is a tool for **building, changing, and versioning infrastructure safely and efficiently**. Terraform can manage **existing and popular service providers** as well as custom in-house solutions.
+> Terraform is a **tool** for **building, changing, and versioning infrastructure safely and efficiently**. Terraform can manage **existing and popular service providers** as well as custom in-house solutions.
 
 Configuration files **describe** to Terraform the **components needed** to run a single application or your entire datacenter.
 
@@ -21,7 +21,7 @@ Use cases: https://www.terraform.io/intro/use-cases.html
 
 ## EXECUTION PLANS
 
-Terraform has a **"planning" step** where it generates an execution plan. The execution plan shows what Terraform will do when you call **apply**. This lets you **avoid any surprises** when Terraform manipulates infrastructure.
+Terraform has a **"planning" step** (`terraform plan`) where it generates an execution plan. The execution plan shows what Terraform will do when you call **apply**. This lets you **avoid any surprises** when Terraform manipulates infrastructure.
 
 ## RESOURSE GRAPH 
 
