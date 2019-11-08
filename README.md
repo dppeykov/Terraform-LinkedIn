@@ -30,3 +30,7 @@ Terraform builds a **graph of all your resources** (`terraform graph` - to visua
 ## INSTALLING
 
 https://learn.hashicorp.com/terraform/getting-started/install.html
+
+## CLI
+
+https://www.terraform.io/docs/configuration/index.html
