@@ -2,6 +2,7 @@
 Links and notes from learning videos and the official website
 
 > Website: https://www.terraform.io/
+
 > Git repo: https://github.com/hashicorp/terraform
 
 
